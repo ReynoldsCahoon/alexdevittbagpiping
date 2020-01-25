@@ -1,0 +1,72 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+.main-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+.image-1 {
+  background-image:url('../images/1.jpg');
+  background-position: 80% 25%;
+}
+.image-2 {
+  background-image:url('../images/2.jpg');
+  background-position: 40% 35%;
+}
+.image-3 {
+  background-image:url('../images/3.jpg');
+  background-position: 0% 55%;
+}
+.image-4 {
+  background-image:url('../images/4.jpg');
+  background-position: 0% 25%;
+}
+.image-5 {
+  background-image:url('../images/5.jpg');
+  background-position: 0% 25%;
+}
+
+.nav {
+  background-image:url('../images/campbell.jpg');
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 20px;
+}
+.nav-item {
+  color: white;
+}
+.nav-item:hover{
+  color: white;
+  text-decoration: none;
+}
+.active {
+  text-decoration: none;
+}
+
+.page-image {
+  min-height: 300px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.image-contact {
+
+}
+.image-rates {
+  background-image:url('../images/rates.jpg');
+  background-position: center;
+}
+.image-events {
+
+}
+.image-about {
+  background-image:url('../images/about.jpg');
+  background-position: center;
+}
+
+.info {
+  margin: 0 20px;
+}

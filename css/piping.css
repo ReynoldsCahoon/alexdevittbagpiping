@@ -53,14 +53,16 @@ html {
   margin-bottom: 20px;
 }
 .image-contact {
-
+  background-image:url('../images/contact.jpg');
+  background-position: 50% 30%;
 }
 .image-rates {
   background-image:url('../images/rates.jpg');
   background-position: center;
 }
 .image-events {
-
+  background-image:url('../images/events.jpg');
+  background-position: 50% 40%;
 }
 .image-about {
   background-image:url('../images/about.jpg');

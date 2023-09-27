@@ -45,7 +45,9 @@
       }
 
       body {
-        margin: 12px;
+        margin: 1em auto;
+        padding: 0 1em;
+        max-width: 50em;
       }
 
       section {
@@ -61,8 +63,6 @@
       }
 
       img {
-        float: right;
-        max-width: 10em;
         margin: 1em;
         border-radius: 1em;
       }
@@ -99,6 +99,21 @@
 
       span {
         vertical-align: sub;
+      }
+
+      @media (max-width: 400px) {
+        img {
+          display: block;
+          margin: 1em auto;
+          max-width: 100%;
+        }
+      }
+
+      @media (min-width: 401px) {
+        img {
+          float: right;
+          max-width: 10em;
+        }
       }
     </style>
   </head>
